@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <!-- nav start -->
+     <nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
+        <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+            <a href="#" class="flex items-center ">
+                <img class="h-6 w-10 mr-3 sm:h-9 " width="64" height="64" src="https://img.icons8.com/nolan/64/1A6DFF/C822FF/kawaii-rice.png" alt="kawaii-rice"/>               
+                <span class="self-center text-xl font-bold whitespace-nowrap text-indigo-700">Foody</span>
+            </a>
+            <div class="flex items-center lg:order-2 cursor-pointer">
+                <img width="30" height="30" src="https://img.icons8.com/material-sharp/24/user-male-circle.png" alt="user-male-circle"/>
+            </div>
+            <div class="items-center justify-between w-full lg:flex lg:w-auto lg:order-1">
+                <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                    <li>
+                        <a href="order-driver.html"
+                            class="block py-2 pl-3 pr-4 text-white bg-indigo-700 rounded lg:bg-transparent lg:text-indigo-700 lg:p-0 dark:text-white">Order</a>
+                    </li>
+                    <li>
+                        <a href="history-driver.html"
+                            class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-indigo-700 lg:p-0">History</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- nav end -->
+
+    <!-- order start -->
+    <div class="h-screen py-8">
+        <div class="container mx-auto px-4">
+            <h1 class="text-2xl font-semibold mb-4">Order</h1>
+            <div class="flex gap-10">
+                <div class="md:w-full">
+                    <div class="bg-white rounded-lg shadow-md p-6 mb-4">
+                        <table class="w-full">
+                            <thead>
+                                <tr>
+                                    <th class="text-left font-semibold">Restoran Yaya</th>
+                                    <th class="text-left font-semibold">Harga</th>
+                                    <th class="text-left font-semibold">Jumlah</th>
+                                    <th class="text-left font-semibold">Pengiriman</th>
+                                    <th class="text-left font-semibold">Total</th>
+                                    <th class="text-left font-semibold">Status</th>
+                                    <th class="text-left font-semibold">Detail</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="py-4">
+                                        <div class="flex items-center">
+                                            <img class="h-20 w-26"
+                                                src="https://images.pexels.com/photos/61180/pexels-photo-61180.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500">                      
+                                            <span class="font-semibold ml-4">American Salad</span>
+    
+                                        </div>
+                                    </td>
+                                    <td class="py-4">Rp 32.000</td>
+                                    <td class="py-4">
+                                        <div class="flex items-center">
+                                            <span class="text-center w-8">1</span>
+                                        </div>
+                                    </td>
+                                    <td class="py-4">Rp 5.000</td>
+                                    <td class="py-4">Rp 38.000</td>
+                                    <td class="py-4">
+                                        <select name="select" id="select" class="block w-1/2 rounded-md border border-slate-300 bg-white px-3 py-4 font-semibold text-gray-500 shadow-sm focus:border-sky-500 focus:outline-none focus:ring-1 focus:ring-sky-500 sm:text-sm">
+                                            <option  class="font-semibold text-slate-700">otw</option>
+                                            <option  class="font-semibold text-slate-700">selesai</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <h2 class="px-4 py-2 bg-indigo-500 text-white text-sm text-center rounded-md hover:bg-indigo-600 cursor-pointer">Detail</h2>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- order end -->
+
+</body>
+</html>
